@@ -1,4 +1,18 @@
 input1 = input()
+row = input().split('W')
+list1 = []
+for index in range(len(row)):
+    if row[index] != '':
+      list1.append(str(len(row[index])))
+
+print(len(list1))
+print(" ".join(list1))
+
+
+
+
+# another code but not clean
+input1 = input()
 row = input()
 blocks = 0
 list1 = []
